@@ -26,6 +26,9 @@ export const WelcomeScreen: FC<WelcomeScreenProps> = function WelcomeScreen(_pro
 
   function goNext() {
     navigation.navigate("Demo", { screen: "DemoShowroom", params: {} })
+    /*
+    something
+    */
   }
 
   useHeader(
